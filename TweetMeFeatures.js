@@ -1,7 +1,5 @@
 /**
  * This moudle contains the implementation of posting a new tweet to Twitter service.
- *
- * @type {{}}
  */
 const DEF_MESSAGE = "Hello, this is default tweet posted by TweetMe."
 const DEF_TWEETS_TO_FETCH = 20;
