@@ -12,17 +12,16 @@ This is the backend infrastructure for "TweetMe", created by Guy Benbenisti for 
 
 # Important Notes:
 
-1. The service is using a test user that can be configered by replacing the  "access_token_key" and "the access_token_secret" attributes in the file UserSettings.js.
-
-Currently defined for a test user I created - @Gbenenisti
+1. The service is using a test user that can be configered by replacing the  "access_token_key" and "the access_token_secret" attributes    in the file UserSettings.js.
+   Currently defined for a test user I created - @Gbenenisti
 
 2. Location has the attributes "latitude", "longitude","radius" radius can be either km or mi.
 
-Legal input example:
+   Legal input example:
 
-{"latitude" : "32.0717552", "longitude" : "34.786993", "radius": "5km"} 
+   {"latitude" : "32.0717552", "longitude" : "34.786993", "radius": "5km"} 
 
-This is the location of ironSource office in Tel Aviv.
+   This is the location of ironSource office in Tel Aviv.
 
 # Useful link:
 
@@ -30,8 +29,7 @@ This is the location of ironSource office in Tel Aviv.
    For testing, I created a simple html landing page that allows you to test the first and second featurs.
 
 2. To test the third one simply use the following link and change the keyword to your desired keyword and latitude,longtitude and radius    to your desire location. If no values given the deafult is to search for tweets including the word 'ironSource' in 5km radius from      the ironSource offices building in Tel Aviv.
-
-https://tweetme4ironsource.herokuapp.com/searchTweetsNearMe?q=keyword&lat=latitude&long=longitude&rad=radius
+   https://tweetme4ironsource.herokuapp.com/searchTweetsNearMe?q=keyword&lat=latitude&long=longitude&rad=radius
 
 Enjoy, 
 Guy Benbenisti.
