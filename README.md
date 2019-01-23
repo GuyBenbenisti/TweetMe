@@ -2,6 +2,7 @@
 
 This is the backend infrastructure for "TweetMe", created by Guy Benbenisti for ironSource student code challenge.
 
+
 # The service features includes:
 
 1. Tweet a new message
@@ -9,6 +10,7 @@ This is the backend infrastructure for "TweetMe", created by Guy Benbenisti for 
 2. Get a list of most recent tweets from the user's feed.
 
 3. Search tweets using a key word, location and a radius. The service will respond with all tweets found, related to the keyword and in the radius of the location.
+
 
 # Important Notes:
 
@@ -23,10 +25,12 @@ This is the backend infrastructure for "TweetMe", created by Guy Benbenisti for 
 
    This is the location of ironSource office in Tel Aviv.
 
+3. For testing, I created a simple html landing page that allows you to test the first and second featurs.
+
+
 # Useful link:
 
 1. The service is deployed at heroku and can be found in the link: https://tweetme4ironsource.herokuapp.com/
-   For testing, I created a simple html landing page that allows you to test the first and second featurs.
 
 2. To test the third one simply use the following link and change the keyword to your desired keyword and latitude,longtitude and radius    to your desire location. If no values given the deafult is to search for tweets including the word 'ironSource' in 5km radius from      the ironSource offices building in Tel Aviv.
    https://tweetme4ironsource.herokuapp.com/searchTweetsNearMe?q=keyword&lat=latitude&long=longitude&rad=radius
